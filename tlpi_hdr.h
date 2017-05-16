@@ -35,7 +35,9 @@
 
 #include "error_functions.h"  /* Declares our error-handling functions */
 
-
+#include <iostream>
+#include<string>
+#include "CH6.h"
 
 /* Unfortunately some UNIX implementations define FALSE and TRUE -
    here we'll undefine them */
@@ -89,4 +91,4 @@ typedef int socklen_t;
 
 #endif
 int duptest();
-
+int CH5_5(int argc,char *argv[]);

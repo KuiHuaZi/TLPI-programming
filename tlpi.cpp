@@ -15,7 +15,8 @@
 #include"tlpi_hdr.h"
 int main(int argc,char*argv[])
 {
-	 duptest();
+
+	CH6test(argc,argv);
 
 }
 
