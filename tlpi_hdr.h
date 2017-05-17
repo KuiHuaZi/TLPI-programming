@@ -38,6 +38,7 @@
 #include <iostream>
 #include<string>
 #include "CH6.h"
+#include"CH7.h"
 
 /* Unfortunately some UNIX implementations define FALSE and TRUE -
    here we'll undefine them */

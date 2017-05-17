@@ -13,10 +13,9 @@
  *      Author: amapola
  */
 #include"tlpi_hdr.h"
-int main(int argc,char*argv[])
-{
 
-	CH6test(argc,argv);
+int main(int argc, char *argv[])
+{
 
 }
 
