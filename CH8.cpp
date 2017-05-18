@@ -5,6 +5,8 @@
  *      Author: amapola
  *      Implement getpwnam() using setpwent(), getpwent(), and endpwent().
  */
+#include<pwd.h>
+#include<string>
 using namespace std;
 struct passwd *mygetpwnam(const char *name)
 {

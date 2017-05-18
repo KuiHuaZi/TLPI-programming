@@ -4,7 +4,7 @@
 #include <string.h>
 #include <pwd.h>
 
-int main(int argc, char *argv[])
+int testmain(int argc, char *argv[])
 {
     if (argc != 3 || strcmp(argv[1], "--help") == 0) {
         fprintf(stderr, "Usage: %s uid1 uid2\n", argv[0]);
