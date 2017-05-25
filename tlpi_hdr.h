@@ -93,3 +93,6 @@ typedef int socklen_t;
 #endif
 int duptest();
 int CH5_5(int argc,char *argv[]);
+
+int selectmain(int argc,char *argv[]);
+int pollmain(int argc,char *argv[]);
